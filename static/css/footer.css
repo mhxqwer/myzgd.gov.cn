@@ -1,0 +1,117 @@
+.footer {
+  width: 100%;
+  background: #f2f2f2;
+  padding: 0 0 20px 0;
+}
+.footer .footLink {
+  width: 100%;
+  background: #e5e5e5;
+  padding: 30px 0 10px;
+}
+.footer .footLink .linkCon {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 24px;
+}
+.footer .footLink .linkCon .button {
+  color: #b72c1b;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.footer .footLink .linkCon .select {
+  width: 1050px;
+}
+.footer .footLink .linkCon .select .cusSelect {
+  float: left;
+}
+.footer .footLink .linkCon .select .cusSelects{
+  line-height: 50px;
+  float: left;
+  margin: 0 0 20px 30px;
+  width: 320px;
+  cursor: pointer;
+  padding: 0 18px;
+  box-sizing: border-box;
+  border: 1px solid #c9c9c9;
+}
+.footer .footLink .linkCon .select .cusSelects a{
+  display: block;
+}
+.footer .footLink .linkCon .select .cusSelects a:hover{
+  color: #2e6da1;
+}
+.footer .footLink .linkCon .select .cusSelect .cusTitle {
+  line-height: 50px;
+  margin: 0 0 20px 30px;
+  width: 320px;
+  cursor: pointer;
+  padding: 0 18px;
+  box-sizing: border-box;
+  border: 1px solid #c9c9c9;
+  position: relative;
+  background: url("../images/footlink.png") no-repeat 286px center;
+}
+.footer .footLink .linkCon .select .cusSelect .cusTitle.active {
+  border-color: #136cdf;
+  color: #136cdf;
+  background-image: url("../images/footlink_a.png");
+}
+.footer .footLink .linkCon .select .cusSelect .cusOpSet {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 0;
+  z-index: 3;
+  bottom: 160px;
+  background: #ffffff;
+  width: 1200px;
+  box-sizing: border-box;
+  padding: 10px 0 10px 10px;
+  font-size: 22px;
+  max-height: 440px;
+  overflow-y: auto !important;
+}
+.footer .footLink .linkCon .select .cusSelect .cusOpSet li {
+  float: left;
+  width: 293px;
+  line-height: 46px;
+  height: 46px;
+}
+.footer .footLink .linkCon .select .cusSelect .cusOpSet li a {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.footer .footLink .linkCon .select .cusSelect .cusOpSet li a:hover {
+  color: #136cdf;
+}
+.footer .footLink .linkCon .select .cusSelect .cusOpSet li.gab {
+  width: 460px;
+}
+.footer .footCon {
+  padding-top: 20px;
+}
+.footer .footCon .sign {
+  width: 354px;
+  margin: 14px auto 10px;
+}
+
+.footer .footCon .sign .signIcon {
+  margin:-14px 24px 0;
+}
+
+
+.footer .footCon p {
+  text-align: center;
+  font-size: 24px;
+  line-height: 50px;
+}
+.footer .footCon p span {
+  color: #979797;
+}
+.footer .footCon p a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=footer.css.map */

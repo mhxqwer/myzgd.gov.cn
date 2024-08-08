@@ -1,0 +1,214 @@
+.header .headerTop {
+  height: 60px;
+  line-height: 60px;
+  background: #4184bb;
+  font-size: 17px;
+}
+.header .headerTop .content {
+  height: 60px;
+  line-height: 60px;
+  color: #ffffff;
+  width: 1200px;
+  margin: 0 auto;
+}
+.header .headerTop .content a {
+  display: inline-block;
+  margin-left: 20px;
+}
+.header .headerTop .content a:hover {
+  text-decoration: underline;
+}
+.header .headerTop .content div {
+  display: inline-block;
+  margin-left: 20px;
+}
+.header .headerTop .content img {
+  display: inline-block;
+  margin-right: 4px;
+  vertical-align: -1px;
+}
+.header .headerTop .content button {
+  display: inline-block;
+  font-size: 17px;
+}
+.header .headerTop .content .ipv {
+  width: 110px;
+  font-size: 15px;
+  background: #98C0E3;
+  color: #2e6da1;
+  display: inline-block;
+  margin-left: 20px;
+  line-height: 24px;
+  height: 24px;
+  text-align: center;
+  border-radius: 18px;
+}
+.header .headerTop .content .slh {
+  cursor: pointer;
+  background: #dd0900;
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  width: 110px;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  border-radius: 6px;
+}
+.header .headerTop .content .slh i {
+  background: url("../images/slh.png") no-repeat;
+  width: 17px;
+  height: 18px;
+  vertical-align: -4px;
+  display: inline-block;
+  margin-right: 6px;
+}
+.header .headerTop .content .phone {
+  cursor: pointer;
+  position: relative;
+}
+.header .headerTop .content .phone .sjbewm {
+  position: absolute;
+  left: -36px;
+  z-index: 2;
+  display: none;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+}
+.header .headCon {
+  width: 100%;
+  height: 298px;
+  margin: 0 auto;
+  background: url("../images/headbanner.jpg") no-repeat center center;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 10px;
+  overflow: hidden;
+}
+.header .headCon .logo {
+  margin-top: 4px;
+}
+.header .headCon .logo img {
+  display: block;
+  margin: 0 auto;
+}
+.header .headCon .search {
+  width: 471px;
+  height: 42px;
+  background: url("../images/search.png") no-repeat;
+  margin: 24px auto 0;
+}
+.header .headCon .search input[type=text] {
+  width: 415px;
+  height: 33px;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  margin: 5px 0 0 3px;
+  padding-left: 10px;
+  outline: none;
+}
+.header .headCon .search input[type=text]::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #dedede;
+  font-size: 18px;
+}
+.header .headCon .search input[type=text]::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #dedede;
+  font-size: 18px;
+}
+.header .headCon .search input[type=text]::-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #dedede;
+  font-size: 18px;
+}
+.header .headCon .search button[type=submit] {
+  width: 36px;
+  height: 36px;
+  background: none;
+  border: none;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+.header .headNav {
+  background: #5292c6;
+  height: 98px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 98px;
+  color: #fff;
+}
+.header .headNav ul {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header .headNav ul li {
+  float: left;
+  width: 160px;
+  text-align: center;
+}
+.header .headNav ul li a {
+  display: block;
+}
+.header .headNav ul li:hover {
+  background-color: #2f6ea2;
+}
+.header .headNav ul li.current {
+  background-color: #2f6ea2;
+}
+.header .headNav ul .exit_zzllms {
+  background: #f17d00;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+  display: block;
+  line-height: 30px;
+  width: 228px;
+  text-align: center;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 10px;
+  margin-top: 8px;
+  box-sizing: border-box;
+}
+.header .headNav ul .cjzmtb {
+  background: #1f00f1;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  width: 228px;
+  text-align: center;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 10px;
+  margin-top: 7px;
+  box-sizing: border-box;
+  position:relative;
+}
+.header .headNav ul .cjzmtb a{
+   display:block;
+   width:100%;
+   height:100%; 
+   
+}
+.header .headNav ul .cjzmtb a:hover{
+  text-decoration:none;
+}
+.header .headNav ul .cjzmtb span{
+    position:absolute;
+    left:-34px;
+    top:40px;
+    padding:30px 10px 10px;
+    font-weight:normal;
+    width:290px;
+    z-index: 3;
+    font-size:24px;
+    color:#666666;
+    background: url("../images/link.png") no-repeat center top;
+    background-size: 100% 100%;
+    box-sizing: initial;
+}

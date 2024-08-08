@@ -1,0 +1,125 @@
+.audio-container {
+  max-width: 652px;
+  position: relative;
+  margin: 0 auto;
+}
+.audio-container * {
+  box-sizing: border-box;
+}
+.audio-container .audio-name {
+  position: absolute;
+  width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  left: 76px;
+  right: 24px;
+  top: 17px;
+  color: #fff;
+  font-size: 16px;
+  height: 20px;
+  line-height: 20px;
+}
+.audio-container .audiojs {
+  padding: 0 24px;
+  width: 100%;
+  height: 72px;
+  background: #494949;
+}
+.audio-container .play-pause {
+  padding: 0;
+  width: 38px;
+  height: 38px;
+  border: none;
+  margin-top: 18px;
+  margin-right: 14px;
+}
+.audio-container .play-pause > p {
+  width: 36px;
+  width: 35px\0;
+  height: 36px;
+  height: 35px\0;
+  margin: 0;
+  border-radius: 36px;
+  border: 1px solid #fff;
+  border: none\0;
+}
+.audio-container .play-pause .play {
+  background: url(../images/audio_icon.png) 3px 4px no-repeat;
+}
+.audio-container .play-pause .pause {
+  background: url(../images/audio_icon.png) 2px -76px no-repeat;
+}
+.audio-container .play-pause .loading {
+  border: none;
+  animation: rotate 1.4s linear infinite;
+  background: url(../images/audio_icon.png) 3px -22px no-repeat;
+}
+.audio-container .play-pause .error {
+  border: none;
+  background: url(../images/audio_icon.png) 5px -49px no-repeat;
+}
+.audio-container .time {
+  font-family: normal;
+  padding: 0;
+  border: none;
+  float: right;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 17px;
+  font-size: 12px;
+}
+.audio-container .time .played {
+  color: #fff;
+}
+.audio-container .time .duration {
+  color: #999;
+}
+.audio-container .scrubber {
+  margin: 0;
+  height: 10px;
+  border-radius: 10px;
+  background: #333;
+  position: absolute;
+  left: 76px;
+  width: auto;
+  right: 24px;
+  bottom: 20px;
+}
+.audio-container .scrubber .audio-name {
+  color: #fff;
+}
+.audio-container .scrubber .progress,
+.audio-container .scrubber .loaded {
+  height: 10px;
+  line-height: 10px;
+  background: #111;
+  border-radius: 10px;
+}
+.audio-container .scrubber .progress {
+  background: #eee;
+}
+.audio-container .error-message {
+  position: absolute;
+  left: 76px;
+  bottom: 0;
+  margin: 0;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=audiojs.css.map */

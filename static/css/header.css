@@ -1,0 +1,205 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 微软雅黑, serif;
+}
+
+html{
+	min-width:1200px;
+}
+
+img{
+    vertical-align:middle;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body{
+    min-width: 1200px;
+    overflow-x: auto;
+    position: relative;
+    background-color: #fff;
+}
+
+
+.clearfix {
+    /* 触发 hasLayout */
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: "020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*头部*/
+.headerTop{
+    width:100%;
+    height: 40px;
+    background-color: #4184bb;
+}
+
+.headerTop .content{
+    color: #ffffff;
+    width:1200px;
+    margin: 0 auto;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.headerTop .content .right a,.headerTop .content .right div{
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 24px;
+}
+
+.headerTop .content .right img{
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: -3px;
+}
+
+.headerTop .content .right .ipv img{
+    margin-right:0;
+    vertical-align: middle;
+}
+
+.headerTop .content .phone{
+    cursor: pointer;
+    position: relative;
+}
+
+.headerTop .content .phone .sjbewm{
+    position: absolute;
+    left: -40px;
+    z-index: 2;
+    display: none;
+    top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.head {
+    width: 100%;
+    height: 360px;
+    background: url("../images/banner_bg.jpg") repeat-x;
+    position: relative;
+    overflow: hidden;
+    background-color: #5292c6;
+}
+
+.headCon {
+    width: 1200px;
+    margin: 0 auto;
+    background: url("../images/banners.jpg") no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.search {
+	width: 471px;
+    height: 42px;
+    background: url("../images/search.png") no-repeat;
+    margin: 230px auto 0 auto;
+}
+
+.search input[type=text] {
+    width: 415px;
+    height: 33px;
+    background: none;
+    border: none;
+    color: #fff;
+    margin: 5px 0 0 3px;
+    padding-left: 10px;
+}
+
+.search button[type=submit] {
+    width: 36px;
+    height: 36px;
+    background: none;
+    border: none;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.dh {
+    width: 1200px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    margin: 28px auto 0 auto;
+    /* background: url(../images/dh.png) no-repeat left center; */
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.dh .sy {
+    /*width: 30px;*/
+    /*height: 30px;*/
+    /*margin-top: 17px;*/
+    /*float: left;*/
+    /*margin-right: 5px;*/
+}
+
+.dh .sy img{
+    vertical-align: middle;
+    margin: 18px auto;
+}
+
+.dh .btn {
+    float: left;
+    width: 199px;
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.dh .btn:hover {
+    background-color:#2f6ea2;
+}
+
+.sy.btn:hover {
+    background-color: transparent;
+}
+
+.dh .shu{
+    width:1px;
+    height:15px;
+    background-color:#fff;
+    float:left;
+    margin-top:28px;
+}
+
+.dh a {
+    color: #fff;
+    display: block;
+}
+
+.dh a:hover {
+    color: #fff;
+    text-decoration: none;
+}
